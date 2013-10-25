@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0"
+    xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd"
+    xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NamedLayer>
+    <Name>ATM</Name>
+    <UserStyle>
+      <Title>ATM</Title>
+      <FeatureTypeStyle>
+   
+      
+       
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>AJMERI GATE</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>AJMERI GATE</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/ajmeri_gate2.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>0</DisplacementX>
+               <DisplacementY>10</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+        
+        
+        
+        
+         <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>92000</MaxScaleDenominator>
+           <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>LAL QILA</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>LAL QILA</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/quila.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>19</Size>
+            </Graphic>
+          </PointSymbolizer>
+          </Rule>
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>12000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>LAL QILA</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>LAL QILA</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/quila.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>17</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-15</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+  
+  
+        
+        
+        
+         
+       
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>ASHOKA PILLAR</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>ASHOKA PILLAR</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/pillar2.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-20</DisplacementX>
+               <DisplacementY>30</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+  
+  
+        
+        
+        
+          
+     
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>DELHI GATE FORT</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>DELHI GATE FORT</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/fort.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-18</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+        
+        
+        
+        
+        <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>92000</MaxScaleDenominator>
+           <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>JANTAR MANTAR</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>JANTAR MANTAR</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/jantar2.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+          </Rule>
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>12000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>JANTAR MANTAR</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>JANTAR MANTAR</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/jantar2.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>22</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-19</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+        
+        
+        
+        
+       
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>375</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>KOTLA FIROZ SHAH</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>KOTLA FIROZ SHAH</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/stadium.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill">#800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-19</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+   
+        
+  
+        
+        
+         
+        <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>24000</MaxScaleDenominator>
+           <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>KASHMERI GATE AND PORTION OF THE CITY WALL</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>KASHMERI GATE AND PORTION OF THE CITY WALL</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/BusStop.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+          </Rule>
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>24000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>KASHMERI GATE AND PORTION OF THE CITY WALL</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>KASHMERI GATE AND PORTION OF THE CITY WALL</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/BusStop.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>22</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-90</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+        
+        
+        
+        
+      
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>MAZAR OF SHEIKH MUHAMMAD IBRAHIM ZAUQ</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>MAZAR OF SHEIKH MUHAMMAD IBRAHIM ZAUQ</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/monument1.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-80</DisplacementX>
+               <DisplacementY>17</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+        
+        
+        
+        
+        
+        
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>UGGAR SAIN 'S BAOLI</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>UGGAR SAIN 'S BAOLI</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/uggar_well.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-15</DisplacementX>
+               <DisplacementY>25</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+        
+        
+        
+        
+        
+        
+      
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>PORTION OF CITY WALL OF SHAHAJANABAD</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>PORTION OF CITY WALL OF SHAHAJANABAD</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+         <PointSymbolizer>
+                         <Graphic>
+           <Mark>
+             <WellKnownName>circle</WellKnownName>
+             <Fill>
+               <CssParameter name="fill-opacity">0.0</CssParameter>
+             </Fill>
+            
+           </Mark>
+          
+         </Graphic>
+                    </PointSymbolizer>
+           
+        </Rule>
+        
+  
+        
+        
+        
+        
+        
+        
+        
+       
+        
+   
+       
+        
+        
+        
+        
+        
+        
+       
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>LOTHIAN ROAD CEMETARY</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>LOTHIAN ROAD CEMETARY</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/cemetry_lohini1.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-15</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+   
+        
+        
+        
+         
+       
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>CITY WALL</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>CITY WALL</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/portionofcitywall2.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-12</DisplacementX>
+               <DisplacementY>18</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+        
+        
+        
+        
+        
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>SALIM GARH FORT</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>SALIM GARH FORT</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/salimfort.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-18</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+        
+       
+       
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>THE OLD MAGAZINE</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>THE OLD MAGAZINE</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/oldtrancegateway.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-20</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+   
+        
+        
+        
+       
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>D'EREMAO CEMETERY</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>D'EREMAO CEMETERY</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/deremaocemetry.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-12</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+    
+        
+        
+        
+        
+        
+        
+        <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>24000</MaxScaleDenominator>
+           <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>NICHOLSON CEMETERY</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>NICHOLSON CEMETERY</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/nikolsancemetry.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+          </Rule>
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>24000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>NICHOLSON CEMETERY</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>NICHOLSON CEMETERY</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/nikolsancemetry.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>22</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill">#800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-22</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+   
+        
+        
+        
+         
+       
+     <Rule>
+          <Name>Medium</Name>
+          <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+        <ogc:Filter>
+            <ogc:PropertyIsBetween>
+             <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+             <ogc:LowerBoundary>
+                <ogc:Literal>THE OLD ENTRANCE GATE WAY OF THE GARDEN</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>THE OLD ENTRANCE GATE WAY OF THE GARDEN</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/Logo/remaininggate.png"/>
+                <Format>image/png</Format>
+               </ExternalGraphic>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+           <TextSymbolizer>
+             <!-- Labelling only at large scale -->
+         <Label>
+           <ogc:PropertyName>Your_Table_Name</ogc:PropertyName>
+         </Label>
+             <Fill>
+           <CssParameter name="fill"> #800000</CssParameter>
+         </Fill>
+            <Font>
+           <CssParameter name="font-family">Arial</CssParameter>
+           <CssParameter name="font-size">10</CssParameter>
+           <CssParameter name="font-style">normal</CssParameter>
+           <CssParameter name="font-weight">bold</CssParameter>
+         </Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.00005</AnchorPointX>
+               <AnchorPointY>0.00005</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>-90</DisplacementX>
+               <DisplacementY>20</DisplacementY>
+             </Displacement>
+           </PointPlacement>
+         </LabelPlacement>
+         </TextSymbolizer>
+        </Rule>
+        
+        
+        
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
