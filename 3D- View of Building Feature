@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml" version="1.0.0">
+  <sld:UserLayer>
+    <sld:LayerFeatureConstraints>
+      <sld:FeatureTypeConstraint/>
+    </sld:LayerFeatureConstraints>
+    <sld:UserStyle>
+      <sld:Name>Buildings</sld:Name>
+      <sld:Title/>
+      <sld:IsDefault>1</sld:IsDefault>
+      
+        
+        <sld:FeatureTypeStyle>
+          
+           <sld:Rule>
+         <sld:MinScaleDenominator>2981</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>12000</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+           <sld:Fill>
+             <sld:CssParameter name="fill">#fdd4e7</sld:CssParameter>
+             <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+            </sld:Fill>
+           </sld:PolygonSymbolizer>
+             </sld:Rule>
+          
+          <sld:Rule>
+         <sld:MinScaleDenominator>373</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>5962</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Geometry>
+              <ogc:Function name="isometric">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+                <ogc:PropertyName>height</ogc:PropertyName>
+              </ogc:Function>
+            </sld:Geometry>
+            
+            <sld:Fill>
+              <sld:CssParameter name="fill">#fcbedb</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+            </sld:Fill>
+           
+          </sld:PolygonSymbolizer>
+         <sld:PolygonSymbolizer>
+            <sld:Geometry>
+              <ogc:Function name="offset">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
+               <ogc:PropertyName>height</ogc:PropertyName>
+              </ogc:Function>
+            </sld:Geometry>
+            
+            <sld:Fill>
+              <sld:CssParameter name="fill">#fee9f3</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">1</sld:CssParameter>
+             </sld:Fill>
+          
+          </sld:PolygonSymbolizer>
+          </sld:Rule>
+          
+          
+          
+          
+            <sld:Rule>
+         <sld:MinScaleDenominator>1491</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>5962</sld:MaxScaleDenominator>
+        
+         <sld:PolygonSymbolizer>
+            <sld:Geometry>
+              <ogc:Function name="offset">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              <ogc:Literal>2.0</ogc:Literal>
+                <ogc:Literal>-2.0</ogc:Literal>
+              
+              </ogc:Function>
+            </sld:Geometry>
+            
+            <sld:Fill>
+              <sld:CssParameter name="fill">#fcbedb</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">1</sld:CssParameter>
+             </sld:Fill>
+          
+          </sld:PolygonSymbolizer>
+          </sld:Rule>
+          
+          
+            <sld:Rule>
+         <sld:MinScaleDenominator>1491</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>5962</sld:MaxScaleDenominator>
+        
+         <sld:PolygonSymbolizer>
+         
+            
+            <sld:Fill>
+              <sld:CssParameter name="fill">#fee9f3</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">1</sld:CssParameter>
+             </sld:Fill>
+          
+          </sld:PolygonSymbolizer>
+          </sld:Rule>
+          
+          
+          
+          
+          
+         
+          
+          
+       
+        
+          
+      
+          
+      </sld:FeatureTypeStyle>
+      
+      
+      
+    
+        
+        
+    </sld:UserStyle>
+  </sld:UserLayer>
+</sld:StyledLayerDescriptor>
