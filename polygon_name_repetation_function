@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0"
+    xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd"
+    xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NamedLayer>
+    <Name>Polygon</Name>
+    <UserStyle>
+      <Title>polygon_label</Title>
+      <FeatureTypeStyle>
+        <Rule>
+            <MinScaleDenominator>373</MinScaleDenominator>
+          <MaxScaleDenominator>191000</MaxScaleDenominator>
+           <ogc:Filter>
+          <ogc:PropertyIsGreaterThan>
+               <ogc:Function name="strlength">
+                   <ogc:PropertyName>fst_ar_nm</ogc:PropertyName>
+               </ogc:Function>
+             <ogc:Literal>6</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+         
+            <And>
+    <PropertyIsGreaterThanOrEqualTo>
+      <PropertyName>NA</PropertyName>
+      <Literal>0.2</Literal>
+    </PropertyIsGreaterThanOrEqualTo>
+    <PropertyIsLessThanOrEqualTo>
+      <PropertyName>NA</PropertyName>
+      <Literal>0.99</Literal>
+    </PropertyIsLessThanOrEqualTo>
+  </And>
+             </ogc:Filter>
+           <PolygonSymbolizer>
+              
+            <Fill>
+              <CssParameter name="fill">#a1bd68</CssParameter>
+            </Fill>
+             
+          </PolygonSymbolizer>
+           
+          </Rule>
+        
+        
+        <Rule>
+        
+         <MinScaleDenominator>380</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
+             <ogc:Filter>
+          <ogc:PropertyIsGreaterThan>
+               <ogc:Function name="strlength">
+                   <ogc:PropertyName>fst_ar_nm</ogc:PropertyName>
+               </ogc:Function>
+             <ogc:Literal>6</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+         
+            <And>
+    <PropertyIsGreaterThanOrEqualTo>
+      <PropertyName>NA</PropertyName>
+      <Literal>0.2</Literal>
+    </PropertyIsGreaterThanOrEqualTo>
+    <PropertyIsLessThanOrEqualTo>
+      <PropertyName>NA</PropertyName>
+      <Literal>0.99</Literal>
+    </PropertyIsLessThanOrEqualTo>
+  </And>
+               </ogc:Filter>
+           <PolygonSymbolizer>
+            <Fill>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/tree1.png"/>
+                                        <Format>image/png</Format>
+                                    </ExternalGraphic>
+                                    <Size>25</Size>
+                                </Graphic>
+                            </GraphicFill>
+                            <CssParameter name="fill">#BCED91</CssParameter>
+                            <CssParameter name="fill-opacity">0.3</CssParameter>
+                        </Fill>
+                        <Stroke>
+                            <CssParameter name="stroke">#BCED91</CssParameter>
+                            <CssParameter name="stroke-opacity">0.0</CssParameter>
+                        </Stroke>
+          </PolygonSymbolizer>       
+       <TextSymbolizer>
+             <Label>
+              <ogc:PropertyName>Your Table Name Here</ogc:PropertyName>
+            </Label>
+          <Fill>
+           <CssParameter name="fill">#333c21</CssParameter>
+         </Fill>
+              <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">10</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.000005</AnchorPointX>
+                  <AnchorPointY>0.000005</AnchorPointY>
+                   <Displacement>
+               <DisplacementX>-20</DisplacementX>
+               <DisplacementY>15</DisplacementY>
+             </Displacement>
+                </AnchorPoint>
+              </PointPlacement>
+            </LabelPlacement>
+          <Geometry>
+      <ogc:Function name="centroid">
+        <ogc:PropertyName>geom</ogc:PropertyName>
+      </ogc:Function>
+    </Geometry>
+             <VendorOption name="spaceAround">10</VendorOption>
+              <VendorOption name="autoWrap">100</VendorOption>
+              <VendorOption name="maxDisplacement">200</VendorOption>
+              <VendorOption name="goodnessOfFit">0.9</VendorOption>
+    <VendorOption name="group">yes</VendorOption>
+
+
+              
+              </TextSymbolizer>
+           </Rule>
+
+          <Rule>
+             
+        <MinScaleDenominator>13000</MinScaleDenominator>
+          <MaxScaleDenominator>49000</MaxScaleDenominator>
+             <ogc:Filter>
+          <ogc:PropertyIsGreaterThan>
+               <ogc:Function name="strlength">
+                   <ogc:PropertyName>fst_ar_nm</ogc:PropertyName>
+               </ogc:Function>
+             <ogc:Literal>6</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+         
+            <And>
+    <PropertyIsGreaterThanOrEqualTo>
+      <PropertyName>NA</PropertyName>
+      <Literal>0.2</Literal>
+    </PropertyIsGreaterThanOrEqualTo>
+    <PropertyIsLessThanOrEqualTo>
+      <PropertyName>NA</PropertyName>
+      <Literal>0.99</Literal>
+    </PropertyIsLessThanOrEqualTo>
+  </And>
+               </ogc:Filter>
+           <PolygonSymbolizer>
+            <Fill>
+                            <GraphicFill>
+                                <Graphic>
+                                    <ExternalGraphic>
+                                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="file:/C:/Program%20Files%20(x86)/GeoServer%202.2.4/images/tree1.png"/>
+                                        <Format>image/png</Format>
+                                    </ExternalGraphic>
+                                    <Size>25</Size>
+                                </Graphic>
+                            </GraphicFill>
+                            <CssParameter name="fill">#BCED91</CssParameter>
+                            <CssParameter name="fill-opacity">0.3</CssParameter>
+                        </Fill>
+                        <Stroke>
+                            <CssParameter name="stroke">#BCED91</CssParameter>
+                            <CssParameter name="stroke-opacity">0.0</CssParameter>
+                        </Stroke>
+          </PolygonSymbolizer>       
+     
+           </Rule>
+           </FeatureTypeStyle>
+           </UserStyle>
+             </NamedLayer>
+              </StyledLayerDescriptor>
